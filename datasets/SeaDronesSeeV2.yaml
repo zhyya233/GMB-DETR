@@ -1,0 +1,7 @@
+train: /home/a/projects/RT-DETR/ultralytics-main/datasets/SeaDroneSeeV2/train/images
+val: /home/a/projects/RT-DETR/ultralytics-main/datasets/SeaDroneSeeV2/valid/images
+test: /home/a/projects/RT-DETR/ultralytics-main/datasets/SeaDroneSeeV2/test/images
+
+
+nc: 5
+names: ['0', 'boat', 'buoy', 'jetski', 'life_saving_appliances']

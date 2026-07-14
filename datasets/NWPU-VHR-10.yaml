@@ -1,0 +1,28 @@
+# NWPU VHR-10 Dataset Configuration File
+# Author: zhyya233 (Corrected by Copilot at 2025-10-15 06:59:05 UTC)
+# Best Practice: Using a relative 'path' and a clean 'names' list.
+
+# Set the path to the root directory of your dataset.
+# This makes the YAML file portable. Adjust if your folder is named differently.
+path: /home/a/projects/RT-DETR/ultralytics-main/datasets/NWPU-VHR-10.v1i.yolov8
+
+# Image directories (relative to the 'path' above)
+train: train/images
+val: valid/images
+test: test/images  # Optional, if you have a test set
+
+# Number of classes
+nc: 10
+
+# Class names in the correct order (0-indexed)
+names:
+  - airplane
+  - ship
+  - storage tank
+  - baseball diamond
+  - tennis court
+  - basketball court
+  - ground track field
+  - harbor
+  - bridge
+  - vehicle

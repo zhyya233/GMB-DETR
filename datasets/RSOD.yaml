@@ -1,0 +1,7 @@
+
+train: /home/a/projects/RT-DETR/ultralytics-main/datasets/RSOD.v3i.yolo26/train/images
+val: /home/a/projects/RT-DETR/ultralytics-main/datasets/RSOD.v3i.yolo26/valid/images
+test: /home/a/projects/RT-DETR/ultralytics-main/datasets/RSOD.v3i.yolo26/test/images
+
+nc: 4
+names: ['aircraft', 'oiltank', 'overpass', 'playground']
